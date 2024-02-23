@@ -20,22 +20,22 @@ The units of each dataset are:
 
 The first step that we can perform is the data wrangling:
 
-We can split data
-We can split month day year seconds minutes 
-Extract Risehour, setminute etc.
-After extracting relevant features, we can drop their parent features to reduce the complexity of the dataset
-We can create the target dataset which will only contain the radiation column
+## We can split data
+## We can split month day year seconds minutes 
+## Extract Risehour, setminute etc.
+## After extracting relevant features, we can drop their parent features to reduce the complexity of the dataset
+## We can create the target dataset which will only contain the radiation column
 # Feature Selection
 
-Feature Selection using Correlation Matrix
-Feature Selection using SelectKBest Method
-Feature Selection using Extra Tree Classifier
+## Feature Selection using Correlation Matrix
+## Feature Selection using SelectKBest Method
+## Feature Selection using Extra Tree Classifier
 # Feature Engineering
 
 After Feature Selection we’ll perform Feature Engineering on the Dataset using BoxCox, Log, MinMax and Standard Transformations.
 
 Then we’ll prepare the data:
 
-Standardization
-Train Test Split
+## Standardization
+## Train Test Split
 
